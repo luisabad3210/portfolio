@@ -370,9 +370,7 @@ i{
 .icon1{
     animation: rotation 10s infinite linear;
 }
-.icon2 {
 
-}
 @keyframes rotation {
     from {
         transform: rotate(0deg);
@@ -398,4 +396,9 @@ i{
     display: grid;
     grid-template-columns: repeat(auto-fill, 130px);
     justify-items: center;
+}
+
+.projectTwo {
+    display: flex;
+    justify-content: center;
 }
