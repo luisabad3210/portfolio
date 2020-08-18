@@ -4,17 +4,17 @@ class Darkmode extends Component {
 
     render() {
         return (
-            <div class='dropdown'>
-                <button class='settingBtn'>Settings</button>
-                <div class='dropdown-content'>
-                    <div class='darkmode-Name'>Dark Mode:</div>
-                    <label class="switch">
+            <div className='dropdown'>
+                <button className='settingBtn'>Settings</button>
+                <div className='dropdown-content'>
+                    <div className='darkmode-Name'>Dark Mode:</div>
+                    <label className="switch">
                         <input 
                             checked={this.props.isDarkMode}
                             onChange={this.props.toggleDarkMode}
                             type="checkbox" 
                         />
-                        <span class="slider round"></span>
+                        <span className="slider round"></span>
                     </label>
                 </div>
             </div>

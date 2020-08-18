@@ -4,32 +4,54 @@ import React, { Component } from 'react';
 
 class header extends Component {
     render() {
+
+    const openContactModal = () => {
+        let modal = document.getElementById("ContactModal");
+        modal.style.display = "block";
+    }
+
+    const closeContactModal = () => {
+        let modal = document.getElementById("ContactModal");
+        modal.style.display = "none";
+    }
+
+
+    const openSubModal = () => {
+        let modal = document.getElementById("subscribeModal");
+        modal.style.display = "block";
+    }
+
+    const closeSubModal = () => {
+        let modal = document.getElementById("subscribeModal");
+        modal.style.display = "none";
+    }
+    
     return (
     <div className='headerContainer'>
-        <div class='backgroundImg'>
-            <div class='profilePic'></div>
-            <div class='name'>Luis Abad</div>
-            <div class='headerBtn'>
-                <button id='contactBtn'>Contact</button>
-                <button id='subscibeBtn'>Subscribe</button>
+        <div className='backgroundImg'>
+            <div className='profilePic'></div>
+            <div className='name'>Luis Abad</div>
+            <div className='headerBtn'>
+                <button id='contactBtn' onClick={()=>{openContactModal()}}>Contact</button>
+                <button id='subscibeBtn' onClick={()=>{openSubModal()}}>Subscribe</button>
 
                     {/* ------- contact pop up ----------- */}
                     
-                <div id="myModal" class="modal">
+                <div id="ContactModal" className="modal">
                     {/* <!-- Modal content --> */}
-                    <div class="modal-content">
-                        <span class="close">&times;</span>
+                    <div className="modal-content">
+                        <span className="close" onClick={()=>{closeContactModal()}}>&times;</span>
                         <div>Contact Information: <br></br></div>
-                        <p>Phone: 678-643-8317<br></br>Email: Luisabad3210@gmail.com</p>
+                        <p>Phone: 678-365-6548<br></br>Email: Luisabad3210@gmail.com</p>
                     </div>
                 </div>
 
                     {/* ------- subscribe pop up ----------- */}
 
-                <div id='myModal-2' class='modal-2'>
+                <div id='subscribeModal' className='modal-2'>
                     {/* <!-- Modal content --> */}
-                    <div class='modal-2-content'>
-                        <span class='close-2'>&times;</span>
+                    <div className='modal-2-content'>
+                        <span className='close-2' onClick={()=>{closeSubModal()}}>&times;</span>
                         <div>Subscribtion Coming Soon <br></br></div>
                         <p>You'll be able to recieve notifications when ever a new project is uploaded</p>
                     </div>
@@ -40,12 +62,12 @@ class header extends Component {
 
 
 
-        <div class='mediaBanner'>
-            <div class='mediaContainer'>
-                <a class ='linkedin' href='https://www.linkedin.com/in/luis-abad-a00180183/'>LinkedIn</a>
-                <a class ='facebook' href='https://www.facebook.com/luis.abad.10690203'>Facebook</a>
-                <a class ='instagram' href='https://www.instagram.com/___urbanlife___/'>Instagram</a>
-                <a class ='twitter' href='https://twitter.com/___urbanlife___'>Twitter</a>
+        <div className='mediaBanner'>
+            <div className='mediaContainer'>
+                <a className ='linkedin' href='https://www.linkedin.com/in/luis-abad-a00180183/'>LinkedIn</a>
+                <a className ='facebook' href='https://www.facebook.com/luis.abad.10690203'>Facebook</a>
+                <a className ='instagram' href='https://www.instagram.com/___urbanlife___/'>Instagram</a>
+                <a className ='twitter' href='https://twitter.com/___urbanlife___'>Twitter</a>
             </div>
         </div>
     </div>

@@ -8,11 +8,11 @@ class NewFeedPost extends Component {
 
     render() {
         return (
-            <div class='createBox'>
-                <div class='container'>
-                    <div class='create'>| Create a Post  |</div>
+            <div className='createBox'>
+                <div className='container'>
+                    <div className='create'>| Create a Post  |</div>
                     <hr></hr>
-                    <textarea class='post' placeholder='What are you thinking?'
+                    <textarea className='post' placeholder='What are you thinking?'
                         onChange = {(event)=>{
                             let text = event.target.value;
                             console.log(text)
@@ -21,12 +21,12 @@ class NewFeedPost extends Component {
                         }}
                     ></textarea>
                     <hr></hr>
-                    <div class='uploadContainer'>
-                        <button class='imageBtn'>Upload Image</button> <button class='videoBtn'>Upload Video</button>
+                    <div className='uploadContainer'>
+                        <button className='imageBtn'>Upload Image</button> <button className='videoBtn'>Upload Video</button>
                     </div>
                     <hr></hr>
-                    <div class='postContainer'>
-                        <button class='postBtn'
+                    <div className='postContainer'>
+                        <button className='postBtn'
                             onClick = {() => {
                                 console.log('clicked')
                                 this.props.transferPost(this.state.response)

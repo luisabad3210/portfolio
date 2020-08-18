@@ -22,8 +22,8 @@ class App extends Component {
       createNewsFeed('Tue Feb 04 2020', 'Welcome to my portfolio page. Before you go on, this page is best viewed on a  screen width of 1500px or a 13inch MacBook Pro. Feel free to explore around by writing on my portfolio wall, liking, commenting, and even try out dark-mode in the settings. Have fun! :)', [], 0),
       createNewsFeed('Tue Feb 04 2020', 'There’s something always being added to this page like new features and projects, so you might see a few glitches here and there lol', [], 0),
       createNewsFeed('Tue Feb 04 2020', 'Click on the image bellow to view projects', [], 0),
-      createNewsFeed('Tue Feb 04 2020', <a href=" https://luisabad3210.github.io/twitter-project/"><img src={projectOne} width='100%' height='220%' /></a>, [], 0),
-      createNewsFeed('Tue Feb 04 2020', <a className='projectTwo' href="https://luisabad3210.github.io/calculator-app/"><img src={projectTwo} width='50%' height='50%' /></a>, [], 0),
+      createNewsFeed('Tue Feb 04 2020', <a href=" https://luisabad3210.github.io/twitter-project/"><img alt='Twitter project' src={projectOne} width='100%' height='220%' /></a>, [], 0),
+      createNewsFeed('Tue Feb 04 2020', <a className='projectTwo' href="https://luisabad3210.github.io/calculator-app/"><img alt='Calculator project' src={projectTwo} width='50%' height='50%' /></a>, [], 0),
 
     ],
   }

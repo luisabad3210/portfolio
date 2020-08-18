@@ -19,7 +19,7 @@ class NewsFeedPost extends Component {
                         {this.props.feed.likes}
                             {/* likes button */}
                         <button
-                            class='likeButton'
+                            className='likeButton'
                             onClick = {() => {
                             this.props.magicalFunction(this.props.feed, this.props.index)}}
                         >Likes</button>
@@ -27,7 +27,7 @@ class NewsFeedPost extends Component {
                         {this.props.feed.comment}
                             {/* comment button */}
                         <button
-                            class='commentButton'
+                            className='commentButton'
                             onClick ={() => {
                                 let x = this.state.isCommenting;
                                 this.setState({isCommenting: !x});
