@@ -410,3 +410,489 @@ i{
     display: flex;
     justify-content: center;
 }
+@media screen and (min-width: 300px) and (max-width: 350px) {
+    .facebookName{
+        margin-left: 0px;
+        font-size: 15px;
+    }
+    .searchBar {
+        width: 50px;
+        height: 3px;
+    }
+    .bannerBtn {
+        margin-left: 0px;
+    }
+    .profileBtn, .homeBtn, .settingBtn {
+        font-size: 12px;
+    }
+    .headerContainer {
+        margin-left: 0px;
+        width: 100%;
+    }
+    .contentContainer {
+        margin-left: 0px;
+        width: 100%;
+        grid-gap: 8px;
+    }
+    .profilePic {
+        padding: 55px;
+        margin-top: 90px;
+        margin-left: 3px;
+    }
+    .name{
+        margin-left: 130px;
+        font-size: 25px;
+        margin-top: 80px;
+    }
+    .linkedin, .facebook, .instagram, .twitter {
+        font-size: 8px;
+    }
+    .icon1, .icon2 {
+        width: 150px;
+        height: 150px;
+    }
+    .modal-content {
+        width: 150px;
+        font-size: 12px;
+    }
+    .modal-2-content {
+        width: 150px;
+        font-size: 12px;
+    }
+    .dropdown-content{
+        min-width: 8px;
+    }
+    .switch {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .darkmode-Name {
+        margin-left: 5px;
+    }
+
+}
+
+
+@media screen and (min-width: 350px) and (max-width: 400px) {
+    .facebookName{
+        margin-left: 10px;
+        font-size: 15px;
+    }
+    .searchBar {
+        width: 100px;
+        height: 3px;
+    }
+    .bannerBtn {
+        margin-left: 10px;
+    }
+    .profileBtn, .homeBtn, .settingBtn {
+        font-size: 12px;
+    }
+    .headerContainer {
+        margin-left: 0px;
+        width: 100%;
+    }
+    .contentContainer {
+        margin-left: 0px;
+        width: 100%;
+        grid-gap: 8px;
+    }
+    .profilePic {
+        padding: 70px;
+        margin-top: 55px;
+    }
+    .name{
+        margin-left: 180px;
+        font-size: 25px;
+        margin-top: 80px;
+    }
+    .linkedin, .facebook, .instagram, .twitter {
+        font-size: 13px;
+    }
+    .icon1, .icon2 {
+        width: 150px;
+        height: 150px;
+    }
+    .modal-content {
+        width: 150px;
+        font-size: 12px;
+    }
+    .modal-2-content {
+        width: 150px;
+        font-size: 12px;
+    }
+    .icon3, .icon4, .icon5, .icon6, .icon7, .icon8 {
+        margin-left: 40px;
+    }
+    .dropdown-content{
+        min-width: 8px;
+    }
+    .switch {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .darkmode-Name {
+        margin-left: 5px;
+    }
+}
+
+
+@media screen and (min-width: 400px) and (max-width: 450px) {
+    .facebookName{
+        margin-left: 10px;
+        font-size: 15px;
+    }
+    .searchBar {
+        width: 100px;
+        height: 3px;
+    }
+    .bannerBtn {
+        margin-left: 40px;
+    }
+    .profileBtn, .homeBtn, .settingBtn {
+        font-size: 12px;
+    }
+    .headerContainer {
+        margin-left: 0px;
+        width: 100%;
+    }
+    .contentContainer {
+        margin-left: 0px;
+        width: 100%;
+        grid-gap: 8px;
+    }
+    .profilePic {
+        padding: 80px;
+        margin-top: 40px;
+    }
+    .name{
+        margin-left: 200px;
+        font-size: 35px;
+        margin-top: 70px;
+    }
+    .linkedin, .facebook, .instagram, .twitter {
+        font-size: 13px;
+    }
+    .modal-content {
+        width: 150px;
+        font-size: 12px;
+    }
+    .modal-2-content {
+        width: 150px;
+        font-size: 12px;
+    }
+    .icon3, .icon4, .icon5, .icon6, .icon7, .icon8 {
+        margin-left: 70px;
+    }
+    .dropdown-content{
+        min-width: 8px;
+    }
+    .switch {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .darkmode-Name {
+        margin-left: 5px;
+    }
+}
+
+@media screen and (min-width: 450px) and (max-width: 500px) {
+    .facebookName{
+        margin-left: 20px;
+        font-size: 15px;
+    }
+    .searchBar {
+        width: 80px;
+        height: 3px;
+    }
+    .bannerBtn {
+        margin-left: 0px;
+    }
+    .profileBtn, .homeBtn, .settingBtn {
+        font-size: 12px;
+    }
+    .headerContainer {
+        margin-left: 7px;
+        width: 95%;
+    }
+    .contentContainer {
+        margin-left: 7px;
+        width: 95%;
+        grid-gap: 8px;
+    }
+    .profilePic {
+        padding: 80px;
+        margin-top: 40px;
+    }
+    .name{
+        margin-left: 190px;
+        font-size: 35px;
+        margin-top: 80px;
+    }
+    .linkedin, .facebook, .instagram, .twitter {
+        font-size: 13px;
+    }
+}
+
+@media screen and (min-width: 500px) and (max-width: 550px) {
+    .facebookName{
+        margin-left: 20px;
+        font-size: 20px;
+    }
+    .searchBar {
+        width: 140px;
+    }
+    .bannerBtn {
+        margin-left: 0px;
+    }
+    .headerContainer {
+        margin-left: 20px;
+        width: 90%;
+    }
+    .contentContainer {
+        margin-left: 20px;
+        width: 90%;
+        grid-gap: 8px;
+    }
+    .profilePic {
+        padding: 80px;
+        margin-top: 40px;
+    }
+    .name{
+        margin-left: 190px;
+        font-size: 35px;
+        margin-top: 80px;
+    }
+    .linkedin, .facebook, .instagram, .twitter {
+        font-size: 13px;
+    }
+}
+
+
+@media screen and (min-width: 550px) and (max-width: 650px) {
+    .facebookName{
+        margin-left: 20px;
+        font-size: 20px;
+    }
+    .searchBar {
+        width: 140px;
+    }
+    .bannerBtn {
+        margin-left: 0px;
+    }
+    .headerContainer {
+        margin-left: 40px;
+        width: 85%;
+    }
+    .contentContainer {
+        margin-left: 40px;
+        width: 85%;
+        grid-gap: 9px;
+    }
+    .profilePic {
+        padding: 80px;
+        margin-top: 40px;
+    }
+    .name{
+        margin-left: 190px;
+        font-size: 35px;
+        margin-top: 80px;
+    }
+    .linkedin, .facebook, .instagram, .twitter {
+        font-size: 13px;
+    }
+}
+
+
+
+@media screen and (min-width: 650px) and (max-width: 750px) {
+    .facebookName{
+        margin-left: 20px;
+        /* font-size: 23px; */
+    }
+    .searchBar {
+        width: 170px;
+    }
+    .bannerBtn {
+        margin-left: 20px;
+    }
+    .headerContainer {
+        margin-left: 75px;
+        width: 80%;
+    }
+    .contentContainer {
+        margin-left: 75px;
+        width: 80%;
+        grid-gap: 8px;
+    }
+    .profilePic {
+        padding: 80px;
+        margin-top: 40px;
+    }
+    .name{
+        margin-left: 190px;
+        font-size: 35px;
+        margin-top: 80px;
+    }
+    .linkedin, .facebook, .instagram, .twitter {
+        font-size: 13px;
+    }
+}
+
+@media screen and (min-width: 750px) and (max-width: 800px) {
+    .facebookName{
+        margin-left: 80px;
+    }
+    .searchBar {
+        width: 180px;
+    }
+    .bannerBtn {
+        margin-left: 50px;
+    }
+    .headerContainer {
+        margin-left: 154px
+    }
+    .contentContainer {
+        margin-left: 150px;
+    }
+    .profilePic {
+        padding: 80px;
+        margin-top: 40px;
+    }
+    .name{
+        margin-left: 190px;
+        font-size: 35px;
+        margin-top: 80px;
+    }
+    .linkedin, .facebook, .instagram, .twitter {
+        font-size: 13px;
+    }
+    .icon3, .icon4, .icon5, .icon6, .icon7, .icon8 {
+        margin-left: 90px;
+    }
+}
+
+
+@media screen and (min-width: 800px) and (max-width: 850px) {
+    .facebookName{
+        margin-left: 90px;
+    }
+    .searchBar {
+        width: 200px;
+    }
+    .bannerBtn {
+        margin-left: 70px;
+    }
+    .headerContainer {
+        margin-left: 153px
+    }
+    .contentContainer {
+        margin-left: 150px;
+    }
+
+    .profilePic {
+        padding: 80px;
+        margin-top: 50px;
+    }
+    .name{
+        margin-left: 190px;
+        font-size: 35px;
+        margin-top: 80px;
+    }
+    .linkedin, .facebook, .instagram, .twitter {
+        font-size: 13px;
+    }
+    /* .mediaBanner {
+        padding: 10px 0p;
+    } */
+
+
+}
+
+
+@media screen and (min-width: 850px) and (max-width: 950px) {
+    .facebookName{
+        margin-left: 120px;
+    }
+    .searchBar {
+        width: 200px;
+    }
+    .bannerBtn {
+        margin-left: 90px;
+    }
+    .headerContainer {
+        margin-left: 184px
+    }
+    .contentContainer {
+        margin-left: 180px;
+    }
+
+    .profilePic {
+        padding: 80px;
+        margin-top: 50px;
+    }
+    .name{
+        margin-left: 190px;
+        font-size: 30px;
+    }
+    .linkedin, .facebook, .instagram, .twitter {
+        font-size: 13px;
+    }
+
+}
+
+
+@media screen and (min-width: 950px) and (max-width: 1100px) {
+    .facebookName{
+        margin-left: 150px;
+    }
+    .searchBar {
+        width: 250px;
+    }
+    .bannerBtn {
+        margin-left: 100px;
+    }
+    .headerContainer {
+        margin-left: 203px
+    }
+    .contentContainer {
+        margin-left: 200px;
+    }
+
+    .profilePic {
+        padding: 90px;
+        margin-top: 50px;
+    }
+    .name{
+        margin-left: 220px;
+        font-size: 30px;
+    }
+    .linkedin, .facebook, .instagram, .twitter {
+        font-size: 15px;
+    }
+
+
+}
+
+
+
+@media screen and (min-width: 1100px) and (max-width: 1200px) {
+    .searchBar {
+        width: 250px;
+    }
+    .bannerBtn {
+        margin-left: 100px;
+    }
+    .headerContainer {
+        margin-left: 203px
+    }
+    .contentContainer{
+        margin-left: 200px;
+    }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1300px){
+    .bannerBtn {
+        margin-left: 130px;
+    }
+}

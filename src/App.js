@@ -33,7 +33,7 @@ class App extends Component {
   }
   render() {
     return (
-      <body style={{...this.state.isDarkMode ? styles.darkMode : null, ...styles.body}}>
+      <div style={{...this.state.isDarkMode ? styles.darkMode : null, ...styles.body}}>
         <div> 
           <Banner 
             isDarkMode={this.state.isDarkMode}
@@ -59,15 +59,15 @@ class App extends Component {
             }}
           />
         </div>
-      </body>
+      </div>
     );
   }
 }
 
 const styles = {
-  body: {
-    height: "100vh",
-  },
+  // body: {
+  //   height: "100vh",
+  // },
   darkMode: {
     'backgroundColor': "#595963",
   }
